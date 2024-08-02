@@ -6,10 +6,6 @@ on:
       - main
   workflow_dispatch:
 
-permissios:
-  contents: read
-  pull-requests: write
-
 jobs:
   tagpr:
     runs-on: ubuntu-22.04
