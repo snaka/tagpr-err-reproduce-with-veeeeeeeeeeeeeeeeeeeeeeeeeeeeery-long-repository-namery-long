@@ -10,7 +10,9 @@ jobs:
   tagpr:
     runs-on: ubuntu-22.04
     permissions:
+      # for create releases
       contents: write
+      pull-requests: write
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
